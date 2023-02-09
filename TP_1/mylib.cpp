@@ -90,4 +90,24 @@ void afficherLigneChoix(char caract, int nb)
     std::cout << std::endl;
 }
 
+void TP1_exo5()
+{
+    int annee = 0;
+
+    std::cout << "Saisir votre "<< std::endl;
+    std::cin >> annee;
+     if (estBissexstile(annee))
+    {
+        std::cout << "C'est bissexstile" << std::endl;   
+    }
+    else
+    {
+        std::cout << "C'est r" << std::endl;   
+    }
+}
+bool estBissexstile(int x)
+{
+return x % 4 == 0 && x % 400 == 0 && x % 100 != 0;
+}
+
 

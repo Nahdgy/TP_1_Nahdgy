@@ -42,7 +42,18 @@ void afficherLigne();
 */
 void TP1_exo3b();
 
-void afficherLigneChoix();
+/**
+* @fn multiplicateur
+* @brief méthode permettant de choisir le nombre de caractères par lignes 
+*/
 void afficherLigneChoix(char caract, int nb);
+
+/**
+* @fn void TP1_exo5();
+* @brief exercice permettant de determiner si une année est  bissextile ou pas 
+*/
+void TP1_exo5();
+
+bool estBissexstile(int x);
 #endif //_MY_LIB_HPP_
 
